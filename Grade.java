@@ -19,7 +19,7 @@ public class Grade{
 
     // Validate the input count
     if (count < 1 || count > 5) {
-      System.out.println("Invalid number. You must enter between 1 and 5 grades.");
+      System.out.println("Invalid number. You must enter between 1 and   5 grades.");
       scanner.close();
       return; // Exit
     }
